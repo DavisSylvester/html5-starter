@@ -1,0 +1,27 @@
+{
+  "name": "html-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Davis Sylvester III <Davis@SylvesterLLC.com>",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/DavisSylvester/html5-starter",
+    "type": "git"
+  },
+  "devDependencies": {
+    "@types/socket.io": "^2.1.2",
+    "nodemon": "^1.18.10",
+    "sly-webserver": "^1.1.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "socket.io": "^2.2.0"
+  }
+}
